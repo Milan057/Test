@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dialog_activity">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+
+
+        >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate Sum"
+            android:layout_margin="10sp"
+            android:id="@+id/mainCalculateBtn"
+            android:background="@color/purple_200"
+
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate Simple Interest"
+            android:layout_margin="10sp"
+            android:id="@+id/mainSI"
+            android:background="@color/purple_200"
+
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate Area of Triangle"
+            android:layout_margin="10sp"
+            android:id="@+id/mainTraingleArea"
+            android:background="@color/purple_200"
+
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate Area of Circle"
+            android:layout_margin="10sp"
+            android:id="@+id/mainCircleArea"
+            android:background="@color/purple_200"
+
+            />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>
